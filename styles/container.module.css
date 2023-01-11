@@ -1,0 +1,10 @@
+.default {
+  width: 92%;
+  max-windth: 1152px;
+  margin: 0 auto;
+}
+
+.large {
+  conposes: defult;
+  max-width: 1280px;
+}
