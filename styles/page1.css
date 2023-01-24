@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#nav > li {
+  background-color: #900;
+  border: 1px solid #300;
+  border-left: 0;
+  display: block;
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 98px;
+}
+#nav > li:first-child {
+  border-left: 1px solid #300;
+}
+#nav > li:hover {
+  background-color: #C33;
+}
+#nav > li > a {
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+}
+#nav > li > a:hover {
+  text-decoration: underline;
+}
+
